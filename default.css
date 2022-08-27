@@ -1,5 +1,5 @@
 body {
-  padding-top: 0;
+  padding: 0;
 }
 
 .navbar img {
@@ -10,7 +10,7 @@ body {
 .mb-4{
   font-size:85px;
   position:absolute;
-  top:65%；
+  top:65%;
   margin:0, 50%, 0, 50%;
   font-family:Georgia, Times New Roman, Times, serif;
   color: #00ff00 !important; 
@@ -101,5 +101,5 @@ p{
 .titleh1{
     display: flex;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 200px;
 }
