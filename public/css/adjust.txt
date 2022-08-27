@@ -1,6 +1,0 @@
-contact us
-1. title shadow
-2. img size re-adjust
-3. font color adjust
-4. button metalic css
-5. 
