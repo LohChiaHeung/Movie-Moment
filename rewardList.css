@@ -1,0 +1,207 @@
+body {
+    background-color:#101210;
+    height:100%;
+}
+
+.totalpoints {
+    color:#ffffff;
+    font-size:22px;
+}
+.totalpoints strong{
+    color:#00dd00;
+    font-size:23px;
+}
+
+.reward {
+    color:#00dd00;
+    font-family: Franklin Gothic Medium;
+    border: 2px solid #ff8036;
+    background-color:black;
+    padding: 5px 14px;
+    margin-left: 10px;
+    height:25px;
+    width:255px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.reward:hover {
+    opacity: 0.8;
+    border: 2px solid #ff8036;
+    background-color:black;
+    color:#00d300;
+}
+
+.card {
+    border: 4px solid #ff8036;
+    height:500px;
+    max-height:600px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+  }
+
+.card-body {
+    background-color:black;
+    text-align:left;
+    padding-top:15px;
+}
+
+.card-title {
+    font-family: Franklin Gothic Medium;
+    font-size:25px;
+    color:#ffffff;
+    height:65px;
+    max-height:70px;
+    border-bottom: 2px #ffffff solid;
+}
+
+.hidden {
+    display:none;
+}
+
+.text-secondary {
+    font-family: Franklin Gothic Medium;
+}
+
+.card-text {
+    font-family: Franklin Gothic Medium;
+    color:#00dd00;
+}
+
+.des {
+    font-family: Franklin Gothic Medium;
+    color:#ff8036;
+}
+.rewardView{
+    font-family: Franklin Gothic Medium;
+    border: 2px solid #000000;
+    background-color:#00dd00;
+    color:black;
+    padding: 5px 14px;
+    margin-left: 10px;
+    height:25px;
+    width:255px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.rewardView:hover{
+    color:black;
+    background-color: #ff8036;
+}
+
+.btn.btn-primary {
+   background-color:#00dd00;
+   color:black;
+   font-family: Franklin Gothic Medium;
+   padding-top:10px;
+}
+
+.btn.btn-primary:hover {
+    background-color:#ff8036;
+ }
+
+ .buttoncenter {
+   justify-content: center;
+   text-align:center;
+   position: absolute;
+   top:90%;
+   left:35%;
+ }
+
+
+ .searchbar{
+    padding:5px;
+    display:flex;
+    justify-content:flex-end;
+    display:inline-block;
+}
+.wholesearchbar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10px;
+}
+
+.search {
+    border: 2px #ff8036 solid;
+    border-radius:20px;
+    outline:0;
+    background-color: transparent;
+    color:#00dd00;
+    padding:8px;
+    font-family: Franklin Gothic Medium;
+
+}
+
+.search::placeholder{
+    color:#00dd00;
+    font-family: Franklin Gothic Medium;
+}
+
+body {
+    margin:0;
+    padding:0;  
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:100vh;
+  }
+  
+  main {
+    flex:1 0 auto;
+  }
+
+.col-md-12.text-center.mt-4{
+    color:#ff8036;
+    font-family: Franklin Gothic Medium;
+    font-size:32px;
+}
+
+.searchbar.icon{
+    padding: 15px;
+    border-radius: 100%;
+}
+
+h2{
+    color:#00dd00;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size:58px !important;
+    font-weight: 500 !important;
+    padding-top: 20px;
+    text-align:left;
+}
+
+.redeemcontainer{
+    padding: 0 20px 0 20px;
+}
+
+.pointSearch{
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+.slide-right {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0;
+    max-width: 900px
+  }
+  
+.slide-right.h2{
+      animation: slide-right 0.5s forwards;
+      transform:translateX(-100%);
+      padding-left: 0;
+      margin-left: 0px;
+      padding-top: 20px;
+  }
+  
+@keyframes slide-right {
+    to {
+        transform:translateX(0);
+    }
+}
+  
+.slide-right{
+    padding: 0 5% 0 5%;
+}
