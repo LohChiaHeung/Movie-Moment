@@ -1,5 +1,5 @@
 body {
-  padding: 0;
+  padding-top: 0;
 }
 
 .navbar img {
@@ -101,5 +101,5 @@ p{
 .titleh1{
     display: flex;
     justify-content: center;
-    padding-top: 185px;
+    padding-top: 120px;
 }
