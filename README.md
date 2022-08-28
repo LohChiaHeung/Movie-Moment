@@ -17,7 +17,7 @@ Step 4: View the line： <br>
 *The second one is your password*. <br>
 Step 5 : Go to .env file. <br>
 Step 6: Change the following details.<br>
------------------------------------------------
+------------------------.env----------------------
 MAIL_MAILER=smtp <br>
 MAIL_HOST=smtp.mailtrap.io <br>
 MAIL_PORT=465<br>
@@ -26,7 +26,7 @@ MAIL_PASSWORD=0655** [Your mailtrap password]<br>
 MAIL_ENCRYPTION=null <br>
 MAIL_FROM_ADDRESS=null <br>
 MAIL_FROM_NAME="${APP_NAME}" [Your application name]
------------------------------------------------
+------------------------.env-----------------------
 <br>
 <strong>Examples of User Account: </strong><br>
 Email:user@example.com <br>
