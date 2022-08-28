@@ -34,6 +34,6 @@ Password:12345678 <br>
 <strong>Examples of Admin Account: </strong> <br>
 Email:admin@example.com <br>
 Password:12345678 <br>
-<br><br>
-<strong>We provide the database seeder.</strong> Just use the commands 'php artisan db:seed' to insert the data into the table.
+<br><br><strong>Database</strong>
+<strong>We provide the database seeder.</strong> Just use the commands <strong>'php artisan db:seed'</strong> to insert the data into the table.
     
