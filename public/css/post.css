@@ -736,3 +736,7 @@ color: gray;
 #help .popup a{
     text-decoration: none;
 }
+
+.comment{
+    z-index: 999;
+}
