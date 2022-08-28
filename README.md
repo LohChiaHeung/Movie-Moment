@@ -5,9 +5,9 @@ Besides, as a usual movie recommendation system, our Movie Moment also provide l
 
 Through our movie recommendation system, we hope that our users can enjoy these services and functions provided by our system. Lastly, our project team will try our best to improve and make our movie recommendation system better and more advanced in the future development.
 
-<strong>Please read the instructions below. </strong>
+<strong>Please read the instructions below. 📘📘 </strong>
 
-<Strong>How to receive users' contact us form as a admin? </strong> <br>
+<Strong>How to receive users' contact us form 📧 as a admin? </strong> <br>
 Step 1: Go to https://mailtrap.io/ to register ur account. <br>
 Step 2: Login to your mailtrap account.<br>
 Step 3: Click Sandbox -> Inboxes -> My Inbox -> SMTP Settings<br>
