@@ -25,13 +25,15 @@ MAIL_USERNAME=c3ad** [Your mailtrap username] <br>
 MAIL_PASSWORD=0655** [Your mailtrap password]<br>
 MAIL_ENCRYPTION=null <br>
 MAIL_FROM_ADDRESS=null <br>
-MAIL_FROM_NAME="${APP_NAME}" [Your application name]
+MAIL_FROM_NAME="${APP_NAME}" [Your application name] <br>
 ------------------------.env-----------------------
-<br>
+<br><br>
 <strong>Examples of User Account: </strong><br>
 Email:user@example.com <br>
 Password:12345678 <br>
 <strong>Examples of Admin Account: </strong> <br>
 Email:admin@example.com <br>
 Password:12345678 <br>
+<br><br>
+<strong>We provide the database seeder.</strong> Just use the commands 'php artisan db:seed' to insert the data into the table.
     
