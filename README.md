@@ -5,23 +5,31 @@ Besides, as a usual movie recommendation system, our Movie Moment also provide l
 
 Through our movie recommendation system, we hope that our users can enjoy these services and functions provided by our system. Lastly, our project team will try our best to improve and make our movie recommendation system better and more advanced in the future development.
 
+Please read the instruction below.
 
-How to receive users' contact us form as a admin?
+<Strong>How to receive users' contact us form as a admin? </strong>
 Step 1: Go to https://mailtrap.io/ to register ur account.
 Step 2: Login to your mailtrap account.
 Step 3: Click Sandbox -> Inboxes -> My Inbox -> SMTP Settings
-Step 4: View the line： --user 'c3ad*******:0655******' \
-*The first one is your username.
-*The second one is your password.
-Step 5 : Go to .env file.
+Step 4: View the line： 
+--user 'c3ad***:0655**'
+*The first one is your username. 
+The second one is your password. 
+Step 5 : Go to .env file. 
 Step 6: Change the following details.
------------------------------------------
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.mailtrap.io
+MAIL_MAILER=smtp 
+MAIL_HOST=smtp.mailtrap.io 
 MAIL_PORT=465
-MAIL_USERNAME=c3ad******** [Your mailtrap username]
-MAIL_PASSWORD=0655*******   [Your mailtrap password]
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS=null
-MAIL_FROM_NAME="${APP_NAME}"
------------------------------------------
+MAIL_USERNAME=c3ad** [Your mailtrap username] 
+MAIL_PASSWORD=0655** [Your mailtrap password]
+MAIL_ENCRYPTION=null 
+MAIL_FROM_ADDRESS=null 
+MAIL_FROM_NAME="${APP_NAME}" [Your application name]
+
+<strong>Examples of User Account: </strong>
+Email:user@example.com
+Password:12345678
+<strong>Examples of Admin Account: </strong>
+Email:admin@example.com
+Password:12345678
+    
