@@ -11,10 +11,10 @@ Through our movie recommendation system, we hope that our users can enjoy these 
 Step 1: Go to https://mailtrap.io/ to register ur account. <br>
 Step 2: Login to your mailtrap account.<br>
 Step 3: Click Sandbox -> Inboxes -> My Inbox -> SMTP Settings<br>
-Step 4: View the line： <br>
+Step 4: View the line： <br> 
 --user 'c3ad***:0655**'<br>
-*The first one is your username. <br>
-The second one is your password. <br>
+*The first one is your username*. <br>
+*The second one is your password*. <br>
 Step 5 : Go to .env file. <br>
 Step 6: Change the following details.<br>
 MAIL_MAILER=smtp <br>
