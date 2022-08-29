@@ -53,6 +53,14 @@
 		</div>
 		</a>
 	</div>
+    	<div class="col-div-3">
+		<a href="{{route('admin.showRewardsRedemption')}}">
+		<div class="box">
+			<p>{{$totalRedemption}}<br/><span>Total Redemption</span></p>
+			<i class="fa fa-gift box-icon"></i>
+			</a>
+		</div>
+	</div>
 	<div class="clearfix"></div>
 	<br/></br>
 </div>
