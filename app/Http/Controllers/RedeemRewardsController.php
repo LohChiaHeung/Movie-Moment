@@ -53,5 +53,16 @@ class RedeemRewardsController extends Controller
         ->get();
         return view('myReward')->with('redeem_rewards',$showReward);
     }
+    
+    
+        public function showRewardsRedemption(){
+            $showReward = DB::table('redeem_rewards')
+            ->leftjoin('rewards','rewards.id','=','redeem_rewards.rewardID')
+            ->select('redeem_rewards.*','rewards.code as rCode','rewards.image as rImage')
+            ->leftjoin('users','users.id','=','redeem_rewards.userID')
+            ->select('redeem_rewards.*','users.name as userName')
+            ->get();
+            return view('backend.userRedemption')->with('redeem_rewards',$showReward);
+        }
 
 }
