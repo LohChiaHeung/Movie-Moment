@@ -14,14 +14,14 @@
     <li class="breadcrumb-item">
       <a href="{{route('admin.home')}}">Dashboard</a>
     </li>
-    <li class="breadcrumb-item active">Users' Rewards Redeemption</li>
+    <li class="breadcrumb-item active">Users' Rewards Redemption</li>
   </ol>
 
 
    <!-- DataTables Example -->
    <div class="card mb-3">
     <div class="card-header">
-      <i class="bx bx-table"></i> Users' Rewards Redeemption
+      <i class="bx bx-table"></i> Users' Rewards Redemption
     </div>
     <div class="card-body">
       <div class="table-responsive">
