@@ -32,6 +32,8 @@
               <th style="border-right-color:black;">Name</th>
               <th style="border-right-color:black;">Email</th>
               <th style="border-right-color:black;">Phone</th>
+              <th style="border-right-color:black;">Points</th>
+              <th style="border-right-color:black;">Daily Limit</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -44,6 +46,8 @@
                 <td style="border-right-color:black;  border-bottom-color:black;">{{$user->name}}</td>
                 <td style="border-right-color:black;  border-bottom-color:black;">{{$user->email}}</td>
                 <td style="border-right-color:black;  border-bottom-color:black;">{{$user->phone}}</td>
+                <td style="border-right-color:black;  border-bottom-color:black;">{{$user->points}}</td>
+                <td style="border-right-color:black;  border-bottom-color:black;" width="120px">{{$user->dailyLimit}}</td>
                 <td style="border-bottom-color:black;">
                   <a class="btn btn-danger btn-sm" href="{{route('admin.deleteUser',['id'=>$user->id])}}" onClick="return confirm('Are you sure to delete?')"><i class="fa fa-trash"></i> Delete</a>
               </td>
