@@ -92,8 +92,11 @@ class AdminController extends Controller
 
         $totalRewards = DB::table('rewards')
         ->count();
+        
+         $totalRedemption = DB::table('redeem_rewards')
+        ->count();
 
-        return view('backend.admin-home', compact('totalUser', 'totalAdmin','totalComment','totalPost','totalRewards'));
+        return view('backend.admin-home', compact('totalUser', 'totalAdmin','totalComment','totalPost','totalRewards','totalRedemption'));
 
 
         
