@@ -6,6 +6,7 @@ Programming anguage & Scripting language :<strong> PHP(Main), JavaScript, Blade,
 Platform Used:<strong> Visual Studio Code</strong><br>
 Framework Used:<strong> Laravel Framework</strong><br>
 Technology Used:<strong>TMDb API (The Movie Database API)</strong><br>
+Database Used: <strong> MySQL </strong> <br>
 
 Our project has been won <strong> 3rd prize </strong> in the FYP Competition that organized by our university college, Southern University College. <br>
 Movie Moment Introduction Video : https://www.youtube.com/watch?v=eCXvbwQdQ5Q <br>
