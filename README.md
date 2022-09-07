@@ -1,10 +1,23 @@
 # Movie Moment （M&M)
-Movie Moment (M&M) is a web-based movie recommendation system that conducted by our project team. The main goal of this movie recommendation system is to provide an <strong>online platform</strong> for movie lovers to share their views and opinions about movies. In our system, users are able to post anything about movies in the movie community pages.
+It is our <strong> Final Year Project (FYP)</strong> for Diploma in Information Technology in Southern University College.
+Movie Moment (M&M) is a web-based movie recommendation system that provided movie recommendation, movie community and rewards system for users. More detailed can be found in our official FB and Instagram page!  <br>
+It is created by using <br>
+Programming anguage & Scripting language :<strong> PHP(Main), JavaScript, Blade, CSS </strong> <br>
+Platform Used:<strong> Visual Studio Code</strong><br>
+Framework Used:<strong> Laravel Framework</strong><br>
+Technology Used:<strong>TMDb API (The Movie Database API)</strong><br>
 
-Besides, as a usual movie recommendation system, our Movie Moment also provide latest movie information that will be shown in the future, and also current and old movie information. Our system can also make our users saving time on searching movie to watch in the searching platform. It is because our Movie Moment will provide <strong>movie recommendation</strong> for users. Users are able to choose their favorite types of movies to look for such as horror, romance, science fiction and so on. Our system also provides <strong>top 10 movies / TV Shows lists </strong> based on the rating provided by the users and it will be updated every day. It enables users to follow up the movie trends worldwide.
+Our project has been won <strong> 3rd prize </strong> in the FYP Competition that organized by our university college, Southern University College. <br>
+Movie Moment Introduction Video : https://www.youtube.com/watch?v=eCXvbwQdQ5Q <br>
+Movie Moment System Demonstration: https://www.youtube.com/watch?v=LVfihKkG-bI <br>
+Movie Moment Official Facebook Account: https://www.facebook.com/Movie-Moment-MM-109810318198221 <br>
+Movie Moment Official Instagram Account: https://www.instagram.com/moviemoment_2022/
+<br><br>
 
-Through our movie recommendation system, we hope that our users can enjoy these services and functions provided by our system. Lastly, our project team will try our best to improve and make our movie recommendation system better and more advanced in the future development.
 
+
+
+<strong> User Guide </strong> <br>
 <strong>Please read the instructions below. 📘📘 </strong>
 
 <Strong>How to receive users' contact us form 📧 as a admin? </strong> <br>
